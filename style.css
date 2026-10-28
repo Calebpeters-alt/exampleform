@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #f0d3fb;
+    color: #1f2933;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 24px;
+}
+
+form {
+    margin: 24px auto;
+    max-width: 700px;
+    background-color: rgb(246, 205, 232);
+    padding: 32px;
+    border-radius: 8px;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 0 0 24px 0;
+    border: 1px solid #1f2933;
+    border-radius: 6px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 8px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.row .field {
+    flex: 1;
+    min-width: 200px;
+    margin: 8px;
+    
+}
